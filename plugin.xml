@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="3D-touch-home-icon-actions" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App 3D touch home icon actions</name>
+    <author>Alaa Al Shamey</author>
+    <description></description>
+    <keywords></keywords>
+    <license></license>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="UIApplicationShortcutItems">
+        <array>
+          <dict>
+              <key>UIApplicationShortcutItemIconFile</key>
+              <string>Eye</string>
+              <key>UIApplicationShortcutItemTitle</key>
+              <string>Eye from plist</string>
+              <key>UIApplicationShortcutItemSubtitle</key>
+              <string>Awesome subtitle</string>
+              <key>UIApplicationShortcutItemType</key>
+              <string>eyefromplist</string>
+          </dict>
+          <dict>
+              <key>UIApplicationShortcutItemIconType</key>
+              <string>UIApplicationShortcutIconTypeCompose</string>
+              <key>UIApplicationShortcutItemTitle</key>
+              <string>Compose</string>
+              <key>UIApplicationShortcutItemType</key>
+              <string>compose</string>
+          </dict>
+        </array>
+      </config-file>
+    </platform>
+</plugin>
