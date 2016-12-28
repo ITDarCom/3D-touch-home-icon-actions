@@ -12,19 +12,29 @@
               <key>UIApplicationShortcutItemIconFile</key>
               <string>Eye</string>
               <key>UIApplicationShortcutItemTitle</key>
-              <string>Eye from plist</string>
+              <string>الإعلانات المفضلة</string>
               <key>UIApplicationShortcutItemSubtitle</key>
-              <string>Awesome subtitle</string>
+              <string>إعلانات مميزة</string>
               <key>UIApplicationShortcutItemType</key>
-              <string>eyefromplist</string>
+              <string>marketMyFavs</string>
           </dict>
           <dict>
               <key>UIApplicationShortcutItemIconType</key>
-              <string>UIApplicationShortcutIconTypeCompose</string>
+              <string>UIApplicationShortcutIconTypeHome</string>
               <key>UIApplicationShortcutItemTitle</key>
-              <string>Compose</string>
+              <string>إعلاناتك</string>
               <key>UIApplicationShortcutItemType</key>
-              <string>compose</string>
+              <string>marketMyAds</string>
+          </dict>
+            <dict>
+              <key>UIApplicationShortcutItemIconType</key>
+              <string>UIApplicationShortcutIconTypeBookmark</string>
+              <key>UIApplicationShortcutItemTitle</key>
+              <string>ردودك</string>
+                <key>UIApplicationShortcutItemSubtitle</key>
+              <string>ردودك بشكل عام</string>
+              <key>UIApplicationShortcutItemType</key>
+              <string>marketMyThreads</string>
           </dict>
         </array>
       </config-file>
