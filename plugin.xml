@@ -8,35 +8,40 @@
     <platform name="ios">
       <config-file target="*-Info.plist" parent="UIApplicationShortcutItems">
         <array>
-          <dict>
-              <key>UIApplicationShortcutItemIconFile</key>
-              <string>Eye</string>
-              <key>UIApplicationShortcutItemTitle</key>
-              <string>الإعلانات المفضلة</string>
-              <key>UIApplicationShortcutItemSubtitle</key>
-              <string>إعلانات مميزة</string>
-              <key>UIApplicationShortcutItemType</key>
-              <string>marketMyFavs</string>
-          </dict>
-          <dict>
-              <key>UIApplicationShortcutItemIconType</key>
-              <string>UIApplicationShortcutIconTypeHome</string>
-              <key>UIApplicationShortcutItemTitle</key>
-              <string>إعلاناتك</string>
-              <key>UIApplicationShortcutItemType</key>
-              <string>marketMyAds</string>
-          </dict>
             <dict>
-              <key>UIApplicationShortcutItemIconType</key>
-              <string>UIApplicationShortcutIconTypeBookmark</string>
-              <key>UIApplicationShortcutItemTitle</key>
-              <string>ردودك</string>
+                <key>UIApplicationShortcutItemIconFile</key>
+                <string>singers</string>
+                <key>UIApplicationShortcutItemTitle</key>
+                <string>الإعلانات المفضلة</string>
+                <key>UIApplicationShortcutItemType</key>
+                <string>marketMyFavs</string>
+            </dict>
+            <dict>
+                <key>UIApplicationShortcutItemIconType</key>
+                <string>UIApplicationShortcutIconTypeHome</string>
+                <key>UIApplicationShortcutItemTitle</key>
+                <string>إعلاناتك</string>
+                <key>UIApplicationShortcutItemType</key>
+                <string>marketMyAds</string>
+            </dict>
+            <dict>
+                <key>UIApplicationShortcutItemIconType</key>
+                <string>UIApplicationShortcutIconTypeMessage</string>
                 <key>UIApplicationShortcutItemSubtitle</key>
-              <string>ردودك بشكل عام</string>
-              <key>UIApplicationShortcutItemType</key>
-              <string>marketMyThreads</string>
-          </dict>
+                <string>ردودك</string>
+                <key>UIApplicationShortcutItemType</key>
+                <string>marketMyThreads</string>
+            </dict>
+            <dict>
+                <key>UIApplicationShortcutItemIconType</key>
+                <string>UIApplicationShortcutIconTypeAdd</string>
+                <key>UIApplicationShortcutItemTitle</key>
+                <string>أضف إعلان</string>
+                <key>UIApplicationShortcutItemType</key>
+                <string>adForm</string>
+            </dict>
         </array>
       </config-file>
+      <resource-file src="singers.png" />
     </platform>
 </plugin>
