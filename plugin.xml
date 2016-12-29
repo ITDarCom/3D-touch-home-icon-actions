@@ -10,31 +10,31 @@
         <array>
             <dict>
                 <key>UIApplicationShortcutItemIconFile</key>
-                <string>singers</string>
+                <string>favouriteAds</string>
                 <key>UIApplicationShortcutItemTitle</key>
                 <string>الإعلانات المفضلة</string>
                 <key>UIApplicationShortcutItemType</key>
                 <string>marketMyFavs</string>
             </dict>
             <dict>
-                <key>UIApplicationShortcutItemIconType</key>
-                <string>UIApplicationShortcutIconTypeHome</string>
+                <key>UIApplicationShortcutItemIconFile</key>
+                <string>yourAds</string>
                 <key>UIApplicationShortcutItemTitle</key>
                 <string>إعلاناتك</string>
                 <key>UIApplicationShortcutItemType</key>
                 <string>marketMyAds</string>
             </dict>
             <dict>
-                <key>UIApplicationShortcutItemIconType</key>
-                <string>UIApplicationShortcutIconTypeMessage</string>
+                <key>UIApplicationShortcutItemIconFile</key>
+                <string>yourReplay</string>
                 <key>UIApplicationShortcutItemTitle</key>
                 <string>ردودك</string>
                 <key>UIApplicationShortcutItemType</key>
                 <string>marketMyThreads</string>
             </dict>
             <dict>
-                <key>UIApplicationShortcutItemIconType</key>
-                <string>UIApplicationShortcutIconTypeAdd</string>
+                <key>UIApplicationShortcutItemIconFile</key>
+                <string>addAd</string>
                 <key>UIApplicationShortcutItemTitle</key>
                 <string>أضف إعلان</string>
                 <key>UIApplicationShortcutItemType</key>
@@ -42,6 +42,9 @@
             </dict>
         </array>
       </config-file>
-      <resource-file src="singers.png" />
+      <resource-file src="favouriteAds.png" />
+      <resource-file src="yourAds.png" />
+      <resource-file src="yourReplay.png" />
+      <resource-file src="addAd.png" />
     </platform>
 </plugin>
