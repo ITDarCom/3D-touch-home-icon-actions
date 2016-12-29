@@ -27,7 +27,7 @@
             <dict>
                 <key>UIApplicationShortcutItemIconType</key>
                 <string>UIApplicationShortcutIconTypeMessage</string>
-                <key>UIApplicationShortcutItemSubtitle</key>
+                <key>UIApplicationShortcutItemTitle</key>
                 <string>ردودك</string>
                 <key>UIApplicationShortcutItemType</key>
                 <string>marketMyThreads</string>
