@@ -10,41 +10,40 @@
         <array>
             <dict>
                 <key>UIApplicationShortcutItemIconFile</key>
-                <string>marketMyFavs</string>
+                <string>ion-home-outline</string>
                 <key>UIApplicationShortcutItemTitle</key>
-                <string>الإعلانات المفضلة</string>
+                <string>سوق مستعمل</string>
                 <key>UIApplicationShortcutItemType</key>
-                <string>app.marketMyFavs</string>
+                <string>market</string>
             </dict>
             <dict>
                 <key>UIApplicationShortcutItemIconFile</key>
-                <string>marketMyAds</string>
+                <string>ion-ios-briefcase-outline</string>
                 <key>UIApplicationShortcutItemTitle</key>
                 <string>إعلاناتك</string>
                 <key>UIApplicationShortcutItemType</key>
-                <string>app.marketMyAds</string>
+                <string>myAds</string>
             </dict>
             <dict>
                 <key>UIApplicationShortcutItemIconFile</key>
-                <string>marketMyThreads</string>
+                <string>ion-person-stalker-outline</string>
                 <key>UIApplicationShortcutItemTitle</key>
-                <string>ردودك</string>
+                <string>منتدى مستعمل</string>
                 <key>UIApplicationShortcutItemType</key>
-                <string>app.marketMyThreads</string>
+                <string>forum</string>
             </dict>
             <dict>
                 <key>UIApplicationShortcutItemIconFile</key>
-                <string>adForm</string>
+                <string>ion-ios-briefcase-outline</string>
                 <key>UIApplicationShortcutItemTitle</key>
-                <string>أضف إعلان</string>
+                <string>مواضيعك</string>
                 <key>UIApplicationShortcutItemType</key>
-                <string>app.adForm</string>
+                <string>myFrs</string>
             </dict>
         </array>
       </config-file>
-      <resource-file src="marketMyFavs.png" />
-      <resource-file src="marketMyAds.png" />
-      <resource-file src="marketMyThreads.png" />
-      <resource-file src="adForm.png" />
+        <resource-file src="ion-ios-briefcase-outline.png" />
+        <resource-file src="ion-home-outline.png" />
+        <resource-file src="ion-person-stalker-outline.png" />
     </platform>
 </plugin>
