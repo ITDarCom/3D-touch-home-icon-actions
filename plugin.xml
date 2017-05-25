@@ -26,7 +26,7 @@
             </dict>
             <dict>
                 <key>UIApplicationShortcutItemIconFile</key>
-                <string>ion-person-stalker-outline</string>
+                <string>ion-ios-people-outline</string>
                 <key>UIApplicationShortcutItemTitle</key>
                 <string>منتدى مستعمل</string>
                 <key>UIApplicationShortcutItemType</key>
@@ -44,6 +44,6 @@
       </config-file>
         <resource-file src="ion-ios-briefcase-outline.png" />
         <resource-file src="ion-home-outline.png" />
-        <resource-file src="ion-person-stalker-outline.png" />
+        <resource-file src="ion-ios-people-outline.png" />
     </platform>
 </plugin>
